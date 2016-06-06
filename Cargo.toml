@@ -1,0 +1,11 @@
+[package]
+name = "redpaper"
+version = "0.1.0"
+authors = ["Russell Hueske <hueske.russ690@gmail.com>"]
+
+[dependencies]
+clap = "2.5.2"
+rustc-serialize = "0.3.19"
+
+[dependencies.rest_client]
+git = "https://github.com/gtolle/rest_client"
